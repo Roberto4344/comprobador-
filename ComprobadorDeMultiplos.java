@@ -13,7 +13,7 @@ public class ComprobadorDeMultiplos{
     }
 
     public boolean esMultiploDe5(int comproba1){
-         if (comproba1 % 5 == 0){
+        if (comproba1 % 5 == 0){
             return true;
         }
         else {
@@ -22,7 +22,12 @@ public class ComprobadorDeMultiplos{
     }
 
     public boolean esMultiploDe(int comproba1,int multiplo){
-        return true;
-    }
+        if (comproba1 % multiplo == 0){
+            return true;
+        }
+        else {
+            return false;
+        }
 
+    }
 }
